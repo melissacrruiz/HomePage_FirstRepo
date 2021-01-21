@@ -1,0 +1,98 @@
+/* *{
+    border: solid red 1px;
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    height: 200px;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
+
+body {
+    background-color: #0F0609;
+}
+
+
+#greeting {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    width: 75px;
+}
+
+.caseStudyGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "one two";
+    margin-bottom: -50px;
+  }
+
+
+.one {
+    background-color: #CE5DB7;
+    grid-area: one;
+    height: 350px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.two {
+    background-color: #32BEB4;
+    grid-area: two;
+    height: 350px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+#About {
+    color: white;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+#Adjectives {
+    color: white;
+    opacity: 50%;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+#actionWord{
+    color: white;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer{
+    justify-content: center;
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
